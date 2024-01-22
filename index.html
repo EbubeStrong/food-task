@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./hero-section.css">
+    <link rel="stylesheet" href="./gallery.css">
+    <link rel="stylesheet" href="./feedback.css">
+    <link rel="stylesheet" href="./newsreport.css">
+    <link rel="stylesheet" href="./footer.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <!-- Start For Header -->
+    <header>
+        <div class="large_screen">
+            <div class="main-heading">
+                <div class="nav-heading">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="photo">
+                        <h1>Meals</h1>
+                    </div>
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="">Menu</a>
+                        <a href="">MealPlan</a>
+                    </nav>
+                </div>
+
+                <div class="icons">
+                    <img src="./img/Magnifier.svg" alt="photo" class="img_1">
+                    <img src="./img/cart.svg" alt="photo" class="img_2">
+                </div>
+
+                <button class="sign_in">SignIn</button>
+
+                <div class="button">
+                    <button>Create Account</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Start of small screen Header -->
+    <div class="small_screen">
+        <div class="heading">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="photo">
+                <h1>Meals</h1>
+            </div>
+
+            <div class="icons">
+                <img src="./img/cart.svg" alt="photo" class="img_1">
+                <img src="./img/menu.svg" alt="photo" class="img_2" onclick="openNav()">
+            </div>
+        </div>
+
+        <div class="sideBar" id="sidebar">
+            <div class="sideBar-main-container">
+                <div class="sideBar-container">
+                    <div class="icon">
+                        <img src="./img/Close.svg" alt="photo" onclick="closeNav()">
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn">
+                <button class="btn_1">Create Account</button>
+                <button class="btn_2">SignIn</button>
+            </div>
+
+            <div class="nav-main-container">
+                <div class="nav-container">
+                    <a href=""><img src="./img/House.svg" alt="photo">
+                        <span>Home</span></a>
+                </div>
+
+                <div class="nav-container">
+                    <a href=""><img src="./img/shop.svg" alt="photo">
+                        <span>Menu</span></a>
+                </div>
+
+                <div class="nav-container">
+                    <a href=""><img src="./img/cart.svg" alt="photo">
+                        <span>My Tray</span></a>
+                </div>
+
+                <div class="nav-container">
+                    <a href=""><img src="./img/clipboard.svg" alt="photo">
+                        <span>Meal Plans</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Start for hero-1 large-screen -->
+        <section class="hero-section large_screen">
+            <div class="hero-container">
+                <div class="container-1">
+                    <div class="food-text">
+                        <h2>Delicious meals at <span>your convenience</span></h2>
+                        <p>Order your meals from us and we will have it <span>delivered to you at your doorstep</span></p>
+                        <div class="hero-btn">
+                            <button>Get Started</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-2">
+                    <div class="outer-layer">
+                        <div class="innerLayer">
+                            <div class="food-image">
+                                <div class="photo-food-image">
+                                    <img src="./img/image 5.png" alt="photo" class="rotating-photo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="circle-chat">
+                            <span><img src="./img/circle.svg" alt="photo" class="circle">
+                                <img src="./img/chat.svg" alt="photo" class="chatImg"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Start for hero-1 small-screen -->
+        <section class="small_screen-1">
+            <div class="container-1">
+                <div class="vector-image">
+                    <img src="./img/Vector 1306.svg" alt="photo">
+                </div>
+
+                <div class="hero-text">
+                    <div class="text-container">
+                        <div class="text-contain">
+                            <h2>Delicious meals at your <span>convenience</span></h2>
+                            <p>Order your meals from us and we will have it delivered at<span>your doorstep.</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="searching-bar">
+                    <div class="output_layer">
+                        <p>Instant Order</p>
+
+                        <div class="search-bar">
+                            <img src="./img/Magnifier.svg" alt="photo">
+                            <input type="text" placeholder="Search for meal">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="outer-layer">
+                    <div class="innerLayer">
+                        <div class="food-image">
+                            <div class="photo-food-image">
+                                <img src="./img/image 5.png" alt="photo" class="rotating-photo">
+                            </div>
+                        </div>
+                        <div class="vector_image">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="chat-main-container">
+            <div class="chat-container">
+
+                <img src="./img/circle.svg" alt="photo" class="img-circle">
+                <img src="./img/chat.svg" alt="photo" class="img-chat">
+            </div>
+        </section>
+
+        <!-- Start for hero-2 large-screen -->
+        <section class="gallery-section largeScreen-hero_2">
+            <div class="gallery-heading">
+                <p class="menu">Menu</p>
+
+                <div class="gallery-content">
+                    <h2>Current menu</h2>
+                    <div class="heading-box">
+                        <div class="food-menu menu-box">
+                            <button onclick="showAllImages()" class="btn-1"><p class="btns">All</p></button>
+                            <button onclick="showImages('rice')" class="btn"><p>Rice</p></button>
+                            <button onclick="showImages('beans')" class="btn"><p>Beans</p></button>
+                            <button onclick="showImages('fries')" class="btn"><p>Fries</p></button>
+                            <button onclick="showImages('swallow')" class="btn"><p>Swallow</p></button>
+                            <button onclick="showImages('others')" class="btn"><p>Others</p></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-main-container">
+                <div class="food-container">
+                    <div class="food-content image-container" id="rice-images">
+                        <img src="./img/photo1.png" alt="photo">
+                        <div class="content-list">
+                            <h3>Jellof Rice and Chicken</h3>
+                            <p>Fried potato/yam chips with egg sauce or any <span>topping of your choice</span></p>
+                            <div class="content-price">
+                                <h4>N 1,500</h4>
+                                <button class="btn"><p>Place Order</p></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-content image-container" id="swallow-images">
+                        <img src="./img/photo2.png" alt="photo">
+                        <div class="content-list">
+                            <h3>Swallow with Draw Soup</h3>
+                            <p>Fried potato/yam chips with egg sauce or any <span>topping of your choice</span></p>
+                            <div class="content-price second-row">
+                                <h4>N 1000</h4>
+                                <button class="btn order"><p>Place Order</p></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-content  image-container" id="fries-images">
+                        <img src="./img/photo3.png" alt="photo">
+                        <div class="content-list">
+                            <h3>Fries with Egg Sauce</h3>
+                            <p>Fried potato/yam chips with egg sauce or any <span>topping of your choice</span></p>
+                            <div class="content-price third-row">
+                                <h4>N 1,500</h4>
+                                <button class="btn"><p>Place Order</p></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-container">
+                    <div class="food-content  image-container" id="other-images">
+                        <img src="./img/photo4.png" alt="photo">
+                        <div class="content-list">
+                            <h3>Swallow with Egusi Soup</h3>
+                            <p>Nicely cooked egusi soup and eba</p>
+                            <div class="content-price">
+                                <h4>N 1000</h4>
+                                <button class="btn"><p>Place Order</p></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-content image-container" id="beans-images">
+                        <img src="./img/photo5.png" alt="photo">
+                        <div class="content-list">
+                            <h3>Beans</h3>
+                            <p>Fried potato/yam chips with egg sauce or any <span>topping of your choice</span></p>
+                            <div class="content-price">
+                                <h4>N 700</h4>
+                                <button class="btn"><p>Place Order</p></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-content image-container" id="others-images">
+                        <img src="./img/photo6.png" alt="photo">
+                        <div class="content-list">
+                            <h3>Fried Rice</h3>
+                            <p>Fried potato/yam chips with egg sauce or any <span>topping of your choice</span></p>
+                            <div class="content-price">
+                                <h4>N 1,500</h4>
+                                <button class="btn"><p>Place Order</p></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-btn">
+                    <button onclick="showAllImages()"><p>Full Menu</p></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start for hero-2 small-screen -->
+        <section class="gallery-section-2">
+            <div class="gallery-heading-2">
+                <p class="menu">Menu</p>
+
+                <div class="gallery-content">
+                    <h2>Current menu</h2>
+                    <div class="heading-box">
+                        <div class="food-menu-2 menu-box">
+                            <button onclick="showAllImages()" class="btn-1"><p class="btnS">All</p></button>
+                            <button onclick="showImages('rice')" class="btN"><p>Rice</p></button>
+                            <button onclick="showImages('beans')" class="btN"><p>Beans</p></button>
+                            <button onclick="showImages('fries')" class="btN"><p>Fries</p></button>
+                            <button onclick="showImages('swallow')" class="btN"><p>Swallow</p></button>
+                            <button onclick="showImages('others')" class="btN"><p>Others</p></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-main-container-2">
+                <div class="food-container-2">
+                    <div class="food-content-2 image-container" id="rice-pics">
+                        <img src="./img/photo1.png" alt="photo">
+                        <div class="content-list-2">
+                            <h3>Jellof Rice and Chicken</h3>
+                            <p>Fried potato/yam chips with egg <span>sauce or any ...</span></p>
+                            <div class="content-price-2">
+                                <h4>N 1,500</h4>
+                                <span><img src="./img/add-item-alt.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-content-2 image-container" id="swallow-pics">
+                        <img src="./img/photo2.png" alt="photo">
+                        <div class="content-list-2">
+                            <h3>Swallow with Draw Soup</h3>
+                            <p>Fried potato/yam chips with egg <span>sauce or any ...</span></p>
+                            <div class="content-price-2 second-row">
+                                <h4>N 1000</h4>
+                                <span><img src="./img/add-item-alt.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-container-2">
+                    <div class="food-content-2  image-container" id="fries-pics">
+                        <img src="./img/photo3.png" alt="photo">
+                        <div class="content-list-2">
+                            <h3>Fries with Egg Sauce</h3>
+                            <p>Fried potato/yam chips with egg <span>sauce or any ...</span></p>
+                            <div class="content-price-2 third-row">
+                                <h4>N 1,500</h4>
+                                <span><img src="./img/add-item-alt.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-content-2  image-container" id="other-pics">
+                        <img src="./img/photo4.png" alt="photo">
+                        <div class="content-list-2">
+                            <h3>Swallow with Egusi Soup</h3>
+                            <p>Fried potato/yam chips with egg <span>sauce or any ...</span></p>
+                            <div class="content-price-2">
+                                <h4>N 1000</h4>
+                                <span><img src="./img/add-item-alt.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-container-2">
+                    <div class="food-content-2 image-container" id="beans-pics">
+                        <img src="./img/photo5.png" alt="photo">
+                        <div class="content-list-2">
+                            <h3>Beans</h3>
+                            <p>Fried potato/yam chips with egg <span>sauce or any ...</span></p>
+                            <div class="content-price-2">
+                                <h4>N 700</h4>
+                                <span><img src="./img/add-item-alt.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-content-2 image-container" id="others-pics">
+                        <img src="./img/photo6.png" alt="photo">
+                        <div class="content-list-2">
+                            <h3>Fried Rice</h3>
+                            <p>Fried potato/yam chips with egg <span>sauce or any ...</span></p>
+                            <div class="content-price-2">
+                                <h4>N 1,500</h4>
+                                <span><img src="./img/add-item-alt.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-btn">
+                    <button onclick="showAllImages()"><p>Full Menu</p></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedBack-main-container">
+            <div class="feedBack-container">
+                <div class="text-container">
+                    <h2>What our <span>customers say</span> <span>about us</span></h2>
+                    <p>At vero eos et accusamus et iusto odio <span>dignissimos ducimus qui blanditiis</span> <span>praesentium voluptatum.</span></p>
+                </div>
+
+                <div class="text-container-2">
+                    <h2>What our customers say <span>about us</span></h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos <span>ducimus qui blanditiis praesentium voluptatum.</span></p>
+                </div>
+
+                <div class="report">
+                    <div class="icon"><img src="./img/Icon.svg" alt="photo"></div>
+                    <div class="image-container">
+                        <div class="image">
+                            <img src="./img/Image.png" alt="photo">
+                            <div class="image-text">
+                                <h3>John Samson</h3>
+                                <address>Enugu, Nigeria</address>
+                            </div>
+                        </div>
+
+                        <div class="report-text">
+                            <p>White dwarf a still more glorious dawn <span>awaits tingling of the spine emerged into</span> <span>consciousness Vangelis shores of the</span> <span>cosmic ocean. Tendrils of gossamer clouds</span> <span>kindling the energy hidden in matter</span>                                <span>concept of the number one permanence.</span></p>
+                        </div>
+
+                        <div class="report-text-2">
+                            <p>White dwarf a still more glorious dawn awaits <span>tingling of the spine emerged into consciousness</span> <span>Vangelis shores of the cosmic ocean.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigate-icon">
+                <img src="./img/Pagination.svg" alt="photo">
+            </div>
+        </section>
+
+        <section class="newsReport-main-container">
+            <div class="newsReport-container">
+                <div class="news-text">
+                    <h2>Blog our latest News</h2>
+                    <p>Have you ever browsed food blogs like mine and wondered <span>how to start a food blog of your very own?</span></p>
+                </div>
+                <div class="news-MainContainer">
+                    <div class="news-container">
+                        <div class="news-image"><img src="./img/Rectangle 1.png" alt="photo" loading="lazy" style="margin: 0 auto;"></div>
+                        <div class="newsText">
+                            <h3>Design <span>01 October 2019</span></h3>
+                            <h4>Better Than Takeout Kung Pao Chicken</h4>
+                            <p>This spicy, tangy, and sweet better than takeout no peanut kung pao chicken stir fry recipe </p>
+                        </div>
+                    </div>
+                    <div class="news-container">
+                        <div class="news-image"><img src="./img/Rectangle 2.png" alt="photo" loading="lazy"></div>
+                        <div class="newsText">
+                            <h3>Design <span>01 October 2019</span></h3>
+                            <h4>Better Than Takeout Kung Pao Chicken</h4>
+                            <p>This spicy, tangy, and sweet better than takeout no peanut kung pao chicken stir fry recipe </p>
+                        </div>
+                    </div>
+                    <div class="news-container">
+                        <div class="news-image"><img src="./img/Rectangle 3.png" alt="photo"></div>
+                        <div class="newsText">
+                            <h3>Design <span>01 October 2019</span></h3>
+                            <h4>Better Than Takeout Kung Pao Chicken</h4>
+                            <p>This spicy, tangy, and sweet better than takeout no peanut kung pao chicken stir fry recipe </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="logo-text">
+                <img src="./img/logo.svg" alt="photo">
+                <h2>Meals</h2>
+            </div>
+            <div class="nav-links">
+                <div class="nav">
+                    <h4>Company</h4>
+                    <a href="">Blog</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                </div>
+
+                <div class="nav">
+                    <h4>Service</h4>
+                    <a href="">FAQs</a>
+                    <a href="">Our Menu</a>
+                </div>
+            </div>
+        </div>
+        <hr class="row-1">
+        <div class="footerContainer">
+            <p>&copy;2022Meals. All rights reserved.</p>
+            <div class="media-links">
+                <img src="./img/facebook.svg" alt="photo">
+                <span class="cicle-bg"><img src="./img/instagram.svg" alt="photo" ><img src="./img/instagram-alt.svg" alt="photo" class="instagram-media"></span>
+                <img src="./img/twitter.svg" alt="photo" class="twitter-media">
+            </div>
+        </div>
+
+        <div class="footerContainer-2">
+            <div class="media-links">
+                <img src="./img/facebook.svg" alt="photo">
+                <span class="cicle-bg"><img src="./img/instagram.svg" alt="photo" ><img src="./img/instagram-alt.svg" alt="photo" class="instagram-media"></span>
+                <img src="./img/twitter.svg" alt="photo" class="twitter-media">
+            </div>
+            <hr class="row-2">
+            <p>&copy;2022Meals. All rights reserved.</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
